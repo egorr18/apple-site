@@ -18,20 +18,18 @@
     font-display: swap;
 }
 
-/* Apply globally (only for Mac page because this is mac.css) */
 body {
     font-family: "SF Pro Display", sans-serif;
 }
 
-
 /* ---------------------- HERO SECTION ---------------------- */
 
-.macbook-pro {
+.macbook_pro {
     min-height: 750px;
     background-image: image-set(
-        "../images/macbook-pro.avif" type("image/avif"),
-        "../images/macbook-pro.webp" type("image/webp"),
-        "../images/macbook-pro.jpg"
+        "../images/macbook_pro.avif" type("image/avif"),
+        "../images/macbook_pro.webp" type("image/webp"),
+        "../images/macbook_pro.jpg"
     );
     background-size: cover;
     background-position: center;
@@ -41,27 +39,28 @@ body {
     text-align: center;
 }
 
-
-/* ---------------------- TEXT SIZES ---------------------- */
-/* Apple-style text sizes for MacBook Pro hero */
-
-.macbook-pro .section-main__title {
+.macbook_pro .section-main__title {
     font-size: 48px;
-    font-weight: 600; /* semibold */
+    font-weight: 600;
     color: #000;
     margin-bottom: 10px;
 }
 
-.macbook-pro .section-main__subtext {
+.macbook_pro .section-main__subtext {
     font-size: 24px;
-    font-weight: 400; /* regular */
+    font-weight: 400;
     color: #333;
     margin-bottom: 5px;
 }
 
-.macbook-pro .section-main__text {
+.macbook_pro .section-main__text {
     font-size: 20px;
-    font-weight: 400; /* regular */
+    font-weight: 400;
     color: #444;
     margin-bottom: 20px;
 }
+
+
+
+
+
