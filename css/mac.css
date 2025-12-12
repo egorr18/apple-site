@@ -1,66 +1,96 @@
 /* ---------------------- FONT SETUP ---------------------- */
 
-/* SF Pro Display Regular */
-@font-face {
-    font-family: "SF Pro Display";
-    src: url("../fonts/sf-pro-display_regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+.section-main {
+    text-align: center;
+    min-height: 692px;
+    padding-top: 55px;
+    margin-bottom: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #1D1D1F;
 }
 
-/* SF Pro Display SemiBold */
-@font-face {
-    font-family: "SF Pro Display";
-    src: url("../fonts/sf-pro-display_semibold.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-body {
-    font-family: "SF Pro Display", sans-serif;
-}
-
-/* ---------------------- HERO SECTION ---------------------- */
+/* MACBOOK PRO */
 
 .macbook_pro {
-    min-height: 750px;
     background-image: image-set(
         "../images/macbook_pro.avif" type("image/avif"),
         "../images/macbook_pro.webp" type("image/webp"),
         "../images/macbook_pro.jpg"
     );
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
-    padding-top: 120px;
-    text-align: center;
 }
 
-.macbook_pro .section-main__title {
-    font-size: 48px;
-    font-weight: 600;
-    color: #000;
-    margin-bottom: 10px;
+
+
+/* MACBOOK AIR */
+
+.macbook_air {
+    background-image: image-set(
+        "../images/macbook_air.avif" type("image/avif"),
+        "../images/macbook_air.webp" type("image/webp"),
+        "../images/macbook_air.jpg"
+    );
+    color: #1D1D1F;
+
 }
 
-.macbook_pro .section-main__subtext {
-    font-size: 24px;
+.section-main__title {
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 6px;
     font-weight: 400;
-    color: #333;
-    margin-bottom: 5px;
 }
 
-.macbook_pro .section-main__text {
-    font-size: 20px;
-    font-weight: 400;
-    color: #444;
-    margin-bottom: 20px;
+.section-main__subtext {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------------------- АДАПТИВ ---------------------- */
+
+/* 1400px */
+@media (max-width: 1400px) {
+    .section-main {
+        min-height: 600px;
+    }
+}
+
+/* 1200px */
+@media (max-width: 1200px) {
+    .section-main {
+        min-height: 520px;
+        background-position: center top;
+    }
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+    .section-main {
+        min-height: 380px; /* було 480 */
+        padding-top: 40px;
+    }
+    .macbook_pro,
+    .macbook_air {
+        background-size: cover; /* <-- міняємо назад */
+        background-position: center;
+    }
 }
 
 
-
-
+/* 768px */
+@media (max-width: 768px) {
+    .section-main {
+        min-height: 380px;
+    }
+    .macbook_pro,
+    .macbook_air {
+        background-size: contain;
+    }
+}
 
