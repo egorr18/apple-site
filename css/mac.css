@@ -52,16 +52,27 @@
     margin-right: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
 /* ---------------------- АДАПТИВ ---------------------- */
 
-/* 1400px */
 @media (max-width: 1400px) {
     .section-main {
         min-height: 600px;
     }
 }
 
-/* 1200px */
 @media (max-width: 1200px) {
     .section-main {
         min-height: 520px;
@@ -69,21 +80,18 @@
     }
 }
 
-/* 1024px */
 @media (max-width: 1024px) {
     .section-main {
-        min-height: 380px; /* було 480 */
+        min-height: 380px;
         padding-top: 40px;
     }
     .macbook_pro,
     .macbook_air {
-        background-size: cover; /* <-- міняємо назад */
+        background-size: cover;
         background-position: center;
     }
 }
 
-
-/* 768px */
 @media (max-width: 768px) {
     .section-main {
         min-height: 380px;
