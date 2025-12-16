@@ -1,0 +1,50 @@
+.section-main {
+  text-align: center;
+  min-height: 692px;
+  padding-top: 55px;
+  margin-bottom: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #1d1d1f;
+}
+
+/* iPad Pro */
+.ipad-pro {
+  background-image: image-set(
+    "../images/ipad_pro.avif" type("image/avif"),
+    "../images/ipad_pro.webp" type("image/webp"),
+    "../images/ipad_pro.jpg"
+  );
+}
+
+/* iPad Air */
+.ipad-air {
+  background-image: image-set(
+    "../images/ipad_air.avif" type("image/avif"),
+    "../images/ipad_air.webp" type("image/webp"),
+    "../images/ipad_air.jpg"
+  );
+}
+
+.section-main__title {
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+.section-main__subtext {
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
