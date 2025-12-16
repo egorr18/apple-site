@@ -9,6 +9,7 @@
   color: #1d1d1f;
 }
 
+
 .ipad-pro {
   background-image: image-set(
     "../images/ipad_pro.avif" type("image/avif"),
@@ -16,6 +17,7 @@
     "../images/ipad_pro.jpg"
   );
 }
+
 
 
 
