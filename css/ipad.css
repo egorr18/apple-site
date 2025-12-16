@@ -11,9 +11,9 @@
 
 .ipad-pro {
   background-image: image-set(
-    "../images/iPad_Pro.avif" type("image/avif"),
-    "../images/iPad_Pro.webp" type("image/webp"),
-    "../images/iPad_Pro.jpg"
+    "../images/ipad_pro.avif" type("image/avif"),
+    "../images/ipad_pro.webp" type("image/webp"),
+    "../images/ipad_pro.jpg"
     );
 }
 
