@@ -9,23 +9,15 @@
   color: #1d1d1f;
 }
 
-/* iPad Pro */
 .ipad-pro {
   background-image: image-set(
-    "../images/ipad_pro.avif" type("image/avif"),
-    "../images/ipad_pro.webp" type("image/webp"),
-    "../images/ipad_pro.jpg"
-  );
+    "../images/iPad_Pro.avif" type("image/avif"),
+    "../images/iPad_Pro.webp" type("image/webp"),
+    "../images/iPad_Pro.jpg"
+    );
 }
 
-/* iPad Air */
-.ipad-air {
-  background-image: image-set(
-    "../images/ipad_air.avif" type("image/avif"),
-    "../images/ipad_air.webp" type("image/webp"),
-    "../images/ipad_air.jpg"
-  );
-}
+
 
 .section-main__title {
   font-size: 56px;
