@@ -18,6 +18,15 @@
   );
 }
 
+.ipad-air {
+  background-image: image-set(
+    "../images/ipad_air.avif" type("image/avif"),
+    "../images/ipad_air.webp" type("image/webp"),
+    "../images/ipad_air.jpg"
+  );
+  color: #1d1d1f;
+}
+
 .section-main__title {
   font-size: 56px;
   line-height: 60px;
